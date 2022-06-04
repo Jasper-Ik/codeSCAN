@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Macondo&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@200&family=Odibee+Sans&family=Outfit:wght@100;300;500;700;800&family=Rubik+Moonrocks&display=swap');
+
+body {
+    max-width: 1440px;
+    min-width: 375px;
+    font-family: 'Outfit', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto 10px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #777777;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+img.qr {
+    width: 295px;
+    height: 295px;
+    border-radius: 15px;
+}
+h2 {
+    line-height: 2rem;
+    font-weight: 700;
+    color:  hsl(218, 44%, 22%);
+}
+
+p {
+    width: 250px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.2rem;
+    margin: 10px auto 10px auto;
+}
+
+footer {
+    width: 350px;
+    margin: 40px auto 10px auto
+}
+
+.attribution {
+    text-align: center;
+    font-size: 11px; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
